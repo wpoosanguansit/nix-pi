@@ -60,7 +60,7 @@
 	extraGroups = [ "wheel" "disk" "video" "autdio" "networkmanager" "systemd-journal" ];
 	createHome = true;
 	uid = 1000;
-	home = "/home/watt";
+	home = "/home/admin";
   };
 }
 
