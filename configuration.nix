@@ -54,8 +54,8 @@
   # when installing lots of things while running other things at the same time.
   swapDevices = [ { device = "/swapfile"; size = 2048; } ];
 
-  users.extraUsers.watt = {
-	name = "watt";
+  users.extraUsers.admin = {
+	name = "admin";
 	group = "users";
 	extraGroups = [ "wheel" "disk" "video" "autdio" "networkmanager" "systemd-journal" ];
 	createHome = true;
